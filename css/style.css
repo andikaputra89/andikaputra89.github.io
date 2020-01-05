@@ -1,0 +1,54 @@
+.list-group a{
+	text-decoration: none;
+	color: #000;
+}
+.card p{
+	
+	margin-bottom: 3px;
+}
+.row .card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+	transform: scale(1.02);
+}
+.modal-body img{
+	width: 400px;
+}
+@media(max-width: 576px){
+	.modal-body img{
+		width: 330px;
+
+
+	}
+}
+.modal-body li{
+	font-size: 10pt;
+
+}
+.list-group a:hover{
+	color: #28A745;
+}
+.copyright{
+	height: 60px;
+}
+.copyright p{
+	line-height: 60px;
+}
+footer ul{
+	list-style: none;
+}
+footer ul a{
+	text-decoration: none;
+	color: #fff;
+}
+@media(max-width: 765px){
+	footer h5:first-of-type{
+		margin-left: 10px;
+	}
+	footer ul{
+		text-align: center;
+		margin-right: 25px;
+	}
+}
+footer ul a:hover{
+	color: #28A745;
+}
